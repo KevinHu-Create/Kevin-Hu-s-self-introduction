@@ -1,4 +1,1 @@
-theme: minima
-git add _config.yml
-git commit -m "Add Jekyll theme"
-git push
+theme: jekyll-theme-minimal
