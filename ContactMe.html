@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+<body>
+    <!-- 页头 -->
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutMe.html">About Me</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or just want to say hi, feel free to send me a message!</p>
+        <!-- 联系表单 -->
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <!-- Formspree 用于处理表单提交，替换 YOUR_FORM_ID 为实际 ID -->
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
