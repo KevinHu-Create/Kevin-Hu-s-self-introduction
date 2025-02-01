@@ -1,0 +1,121 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif; /* 设置全局字体 */
+    background-color: #f9f9f9;      /* 设置页面背景颜色 */
+    color: #333;                   /* 设置默认字体颜色 */
+    margin: 0;                     /* 去除页面默认外边距 */
+    padding: 0;                    /* 去除页面默认内边距 */
+    line-height: 1.6;              /* 设置文字行间距 */
+}
+
+/* 页眉样式 */
+header {
+    background-color: #007acc;     /* 设置背景色 */
+    color: white;                  /* 设置文字颜色 */
+    padding: 1em;                  /* 设置内边距 */
+    text-align: center;            /* 居中对齐 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
+
+/* 导航栏样式 */
+nav {
+    margin-top: 1em;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;         /* 去除下划线 */
+    color: white;                  /* 链接文字颜色 */
+    margin: 0 15px;                /* 设置链接之间的间距 */
+    font-weight: bold;             /* 加粗文字 */
+}
+
+nav a:hover {
+    text-decoration: underline;    /* 悬停时显示下划线 */
+}
+
+/* 主内容样式 */
+main {
+    background: white;             /* 设置背景色为白色 */
+    margin: 2em auto;              /* 居中显示 */
+    padding: 2em;                  /* 设置内边距 */
+    max-width: 800px;              /* 最大宽度 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+    border-radius: 8px;            /* 圆角边框 */
+}
+
+/* 标题样式 */
+h1, h2, h3 {
+    color: #007acc;                /* 设置标题颜色 */
+}
+
+/* 表单样式 */
+form {
+    margin-top: 1em;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;                /* 独占一行 */
+    font-weight: bold;             /* 加粗 */
+    margin-bottom: 0.5em;          /* 设置与输入框之间的间距 */
+}
+
+input, textarea {
+    width: 100%;                   /* 占满父容器宽度 */
+    padding: 0.5em;                /* 设置内边距 */
+    border: 1px solid #ccc;        /* 设置边框颜色 */
+    border-radius: 4px;            /* 圆角边框 */
+    font-size: 1em;                /* 设置字体大小 */
+}
+
+textarea {
+    resize: vertical;              /* 仅允许垂直方向调整大小 */
+}
+
+button {
+    background-color: #007acc;     /* 按钮背景色 */
+    color: white;                  /* 按钮文字颜色 */
+    border: none;                  /* 无边框 */
+    padding: 0.7em 1.5em;          /* 内边距 */
+    border-radius: 4px;            /* 圆角 */
+    cursor: pointer;               /* 鼠标悬停时显示指针 */
+    font-size: 1em;                /* 设置字体大小 */
+}
+
+button:hover {
+    background-color: #005f99;     /* 悬停时改变背景色 */
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;        /* 设置背景色 */
+    color: white;                  /* 设置文字颜色 */
+    text-align: center;            /* 居中对齐 */
+    padding: 1em 0;                /* 设置内边距 */
+    margin-top: 2em;               /* 设置顶部外边距 */
+}
+
+/* 链接样式 */
+a {
+    color: #007acc;                /* 默认链接颜色 */
+    text-decoration: none;         /* 去除下划线 */
+}
+
+a:hover {
+    text-decoration: underline;    /* 悬停时显示下划线 */
+}
+
+/* 响应式设计 */
+@media (max-width: 600px) {
+    main {
+        padding: 1em;              /* 移动设备上减少内边距 */
+    }
+
+    nav a {
+        margin: 0 10px;            /* 缩小导航链接的间距 */
+    }
+}
